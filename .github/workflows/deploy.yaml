@@ -35,7 +35,7 @@ jobs:
         run: | 
           git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git
 
-          cp config/* quartz
+          # cp config/* quartz
 
           rm -rf quartz/content/*
           cp -r ../obsidian/* quartz/content
