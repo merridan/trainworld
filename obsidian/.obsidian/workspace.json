@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "2f0f097859bad6f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bc2f5a5deea2c77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b7081b6049c45fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Locations/Praedania/Bilbun.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bilbun"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51fb6392ffd6a782",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3d523100ef230a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0e0378496ac2051",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "68aa922884eed86d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "028c00cb357e68f1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3d9f326e80f02eb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d2cdff018393df6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "683a6ca603ad1044",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ee9c201adfb6cc00",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "30bb8108a3ca7ba3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d07735081ace73a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "bcc0ed80b44c7a2c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "google-drive-sync:Push to Google Drive": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "rpg-manager:RPG Manager": false,
+      "templater-obsidian:Templater": false,
+      "publish:Publish changes...": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "floating": {
+    "id": "229d4358d321bed5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "cb287a69835a4c32",
+        "type": "window",
+        "children": [
+          {
+            "id": "a54cda63d9573fa8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d1e48879df10b948",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "16a48705767af523",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 788,
+        "y": -561,
+        "width": 900,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "16a48705767af523",
+  "lastOpenFiles": [
+    "Locations/Praedania/Bilbun.md",
+    "Untitled.md",
+    "Locations/World.md",
+    "Factions/Big Chugga.md",
+    "Factions/Ambrite Synergistic Solutions.md",
+    "Characters/Augustus Drake.md",
+    "Factions/Gleamstone Voyagers.md",
+    "Factions/Institute of Discovery.md",
+    "Factions/Order of the White Void.md",
+    "Factions/Tokavich Family.md",
+    "templates/Faction.md",
+    "Locations/Praedania/Arden/Arden City Station.md",
+    "Locations/Praedania/Arden/Arden City.md",
+    "Locations/Praedania/Temple of War.md",
+    "templates/Location.md",
+    "Locations/Desteria/Kredlam/Kredlam City.md",
+    "Locations/Desteria/Kredlam/Kredlam Outer Gate.md",
+    "Locations/Desteria/Kredlam/Kredlam Power Plant 12.md",
+    "Locations/Desteria/Desteria.md",
+    "templates/Object.md",
+    "templates/Character.md",
+    "templates/Log.md",
+    "Campaigns/Gilded Endeavour/02. Sessions/1/1.md",
+    "Campaigns/Gilded Endeavour/02. Sessions/1/Scenes/d.md",
+    "Campaigns/Gilded Endeavour/02. Sessions/1/Scenes",
+    "Campaigns/Gilded Endeavour/Gilded Endeavour.md",
+    "Campaigns/Gilded Endeavour/02. Sessions/1",
+    "Campaigns/Gilded Endeavour/02. Sessions",
+    "Campaigns/Gilded Endeavour/03. Non Player Characters/dddddddd.md",
+    "Campaigns/Gilded Endeavour/03. Non Player Characters",
+    "Campaigns/Gilded Endeavour",
+    "Campaigns",
+    "Gilded Endeavour",
+    "Untitled.canvas",
+    "Untitled",
+    "Other Lore/Gods",
+    "Other Lore/History",
+    "Attachments/maps/world_map.png",
+    "Attachments/maps/praedania.png",
+    "Attachments/maps/kredlam_city.png",
+    "Attachments/maps/desteria.png",
+    "Attachments/maps/arden_city.png"
+  ]
+}

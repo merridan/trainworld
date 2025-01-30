@@ -1,0 +1,19 @@
+{
+  "templatesFolder": "templates",
+  "automaticMove": true,
+  "useSceneAnalyser": true,
+  "version": "4.1.14",
+  "customAttributes": [
+    {
+      "customName": "Race",
+      "type": "Text",
+      "id": "_race",
+      "isCustom": true,
+      "customTypes": [
+        "playercharacter",
+        "nonplayercharacter"
+      ]
+    }
+  ],
+  "forceFullWidth": true
+}
