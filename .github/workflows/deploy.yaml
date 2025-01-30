@@ -33,18 +33,22 @@ jobs:
 
       - name: install Quartz
         run: | 
-          wget https://github.com/jackyzha0/quartz/archive/refs/tags/v4.0.8.zip
-          unzip -d v4.0.8.zip
+          git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git
 
-          cp config/* quartz-4.0.8
-          cd quartz-4.0.8
+          # cp config/* quartz
+
+          rm -rf quartz/content/*
+          cp -r ../obsidian/* quartz/content
+
+          cd quartz
+
           npm ci
           npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: web/quartz/public
  
   deploy:
     defaults: 
