@@ -39,7 +39,9 @@ jobs:
           cp config/* quartz-4.0.8
           cd quartz-4.0.8
           npm ci
-          npx quartz build
+
+      - name: build
+        run: npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
