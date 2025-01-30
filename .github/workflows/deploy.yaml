@@ -38,7 +38,7 @@ jobs:
           cp config/* quartz
 
           rm -rf quartz/content/*
-          cp -r ../obsidian/* content
+          cp -r ../obsidian/* quartz/content
 
           cd quartz
 
