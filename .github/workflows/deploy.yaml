@@ -33,7 +33,7 @@ jobs:
 
       - name: install Quartz
         run: | 
-          git clone --depth 1 --branch v4 git@github.com:jackyzha0/quartz.git .
+          git clone --depth 1 --branch v4 git@github.com:jackyzha0/quartz.git
 
           cp config/* quartz
 
