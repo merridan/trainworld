@@ -29,20 +29,20 @@ jobs:
           
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: install Quartz
         run: | 
-          wget https://github.com/jackyzha0/quartz/archive/refs/tags/v4.0.8.zip
-          unzip v4.0.8.zip
+          git clone --depth 1 --branch v4 git@github.com:jackyzha0/quartz.git .
 
-          cp config/* quartz-4.0.8
-          cd quartz-4.0.8
+          cp config/* quartz
+
+          rm -rf quartz/content/*
+          cp -r ../obsidian/* content
+
+          cd quartz
+
           npm ci
-
-      - name: build
-        run: |
-          cd quartz-4.0.8 
           npx quartz build
 
       - name: Upload artifact
