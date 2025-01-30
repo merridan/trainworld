@@ -41,7 +41,9 @@ jobs:
           npm ci
 
       - name: build
-        run: npx quartz build
+        run: |
+          cd quartz-4.0.8 
+          npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
